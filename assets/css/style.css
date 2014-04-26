@@ -56,3 +56,11 @@ input[type="submit"] {
   height: 73px;
   line-height: 73px;
   margin-left: 15px; }
+
+.page-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff; }
+  .page-footer a {
+    color: #fff; }
