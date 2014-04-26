@@ -66,4 +66,5 @@ input[type="submit"] {
   right: 10px;
   color: #fff; }
   .page-footer a {
-    color: #fff; }
+    color: #fff;
+    text-decoration: none; }
