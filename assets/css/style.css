@@ -92,3 +92,16 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background: #fafafa;
 }
+
+span{
+    position: absolute;
+    color: white;
+    bottom: 6px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Proxima Nova';
+    font-size: 0.8em;
+}
+span a{
+    color: white;
+}
