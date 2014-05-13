@@ -21,7 +21,7 @@ section.page-container{
     transform: translateY(-50%);
 }
 
-h1, p{
+h1, p, input[type="submit"], span{
     font-family: 'Proxima Nova', "proxima-nova", sans-serif;
 }
 
@@ -80,7 +80,6 @@ input[type="submit"]{
     background: white;
     border: none;
     font-size: 1.2em;
-    font-family: 'Proxima Nova', "proxima-nova", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     padding: 22px 24px;
@@ -99,7 +98,6 @@ span{
     bottom: 6px;
     text-align: center;
     width: 100%;
-    font-family: 'Proxima Nova', "proxima-nova", sans-serif;
     font-size: 0.8em;
 }
 span a{
