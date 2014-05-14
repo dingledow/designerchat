@@ -7,6 +7,7 @@ body {
     background-size: cover;
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 section.page-container{
@@ -19,6 +20,7 @@ section.page-container{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    padding: 0 36px;
 }
 
 h1, p, input[type="submit"], span{
@@ -95,11 +97,44 @@ input[type="submit"]:hover{
 span{
     position: absolute;
     color: white;
-    bottom: 6px;
+    bottom: 18px;
     text-align: center;
     width: 100%;
     font-size: 0.8em;
 }
 span a{
     color: white;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 1.83em;
+    }
+    input[type="email"]{
+        max-width: 280px;
+        margin-bottom: 20px;
+        font-size: 1.4em;
+    }
+    input[type="submit"]{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 1.4em;
+        margin-bottom: 1em;
+    }
+    input[type="email"]{
+        max-width: 180px;
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+    input[type="submit"]{
+        font-size: 0.8em;
+        padding: 16px 18px;
+    }
+    p{
+        font-size: 0.7em;
+    }
 }
