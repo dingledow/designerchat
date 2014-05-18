@@ -11,7 +11,7 @@ body {
 }
 
 section.page-container{
-    max-width: 800px;
+    max-width: 720px;
     margin: 0 auto;
     color: white;
     text-align: center;
@@ -52,13 +52,13 @@ input[type="email"]{
     font-family: 'Fira Sans', "fira-sans";
     font-weight: 100;
     border-radius: 6px;
-    background-color: rgba( 0,0,0,0.1);
+    background-color: rgba( 0,0,0,0.3);
     color: white;
 }
 
 input[type="email"]:focus{
     outline: none;
-    background-color: rgba( 0,0,0,0.2);
+    background-color: rgba( 0,0,0,0.5);
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
